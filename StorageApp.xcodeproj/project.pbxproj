@@ -17,6 +17,14 @@
 		C4469BB426EE43EC00C14426 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4469B8C26EE43E800C14426 /* ContentView.swift */; };
 		C4469BB526EE43EC00C14426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4469B8D26EE43EC00C14426 /* Assets.xcassets */; };
 		C4469BB626EE43EC00C14426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4469B8D26EE43EC00C14426 /* Assets.xcassets */; };
+		C4469BC726EE456000C14426 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4469BC626EE456000C14426 /* Home.swift */; };
+		C4469BC826EE458500C14426 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4469BC626EE456000C14426 /* Home.swift */; };
+		C4469BCA26EE469100C14426 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4469BC926EE469100C14426 /* SideMenu.swift */; };
+		C4469BCB26EE46AA00C14426 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4469BC926EE469100C14426 /* SideMenu.swift */; };
+		C4469BCD26EE4E2000C14426 /* MainContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4469BCC26EE4E2000C14426 /* MainContent.swift */; };
+		C4469BCE26EE4E2700C14426 /* MainContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4469BCC26EE4E2000C14426 /* MainContent.swift */; };
+		C4469BD026EE5BB100C14426 /* SideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4469BCF26EE5BB100C14426 /* SideView.swift */; };
+		C4469BD126EE67BB00C14426 /* SideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4469BCF26EE5BB100C14426 /* SideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,10 @@
 		C4469BA926EE43EC00C14426 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4469BAD26EE43EC00C14426 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C4469BAF26EE43EC00C14426 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		C4469BC626EE456000C14426 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C4469BC926EE469100C14426 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		C4469BCC26EE4E2000C14426 /* MainContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContent.swift; sourceTree = "<group>"; };
+		C4469BCF26EE5BB100C14426 /* SideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,7 @@
 		C4469B8A26EE43E800C14426 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C4469BC526EE453B00C14426 /* View */,
 				C4469B8B26EE43E800C14426 /* StorageAppApp.swift */,
 				C4469B8C26EE43E800C14426 /* ContentView.swift */,
 				C4469B8D26EE43EC00C14426 /* Assets.xcassets */,
@@ -129,6 +142,17 @@
 				C4469BAF26EE43EC00C14426 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		C4469BC526EE453B00C14426 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4469BC626EE456000C14426 /* Home.swift */,
+				C4469BC926EE469100C14426 /* SideMenu.swift */,
+				C4469BCC26EE4E2000C14426 /* MainContent.swift */,
+				C4469BCF26EE5BB100C14426 /* SideView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +314,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4469BB326EE43EC00C14426 /* ContentView.swift in Sources */,
+				C4469BCD26EE4E2000C14426 /* MainContent.swift in Sources */,
+				C4469BC726EE456000C14426 /* Home.swift in Sources */,
+				C4469BD026EE5BB100C14426 /* SideView.swift in Sources */,
 				C4469BB126EE43EC00C14426 /* StorageAppApp.swift in Sources */,
+				C4469BCA26EE469100C14426 /* SideMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +327,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4469BB426EE43EC00C14426 /* ContentView.swift in Sources */,
+				C4469BCE26EE4E2700C14426 /* MainContent.swift in Sources */,
+				C4469BC826EE458500C14426 /* Home.swift in Sources */,
+				C4469BD126EE67BB00C14426 /* SideView.swift in Sources */,
 				C4469BB226EE43EC00C14426 /* StorageAppApp.swift in Sources */,
+				C4469BCB26EE46AA00C14426 /* SideMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
